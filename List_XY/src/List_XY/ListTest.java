@@ -1,4 +1,4 @@
-package List_XY;
+package List_XY; // https://www.youtube.com/watch?v=TpvEqvSx4aI&list=PLyriihBWoulxmMv3x05WHs8R12WfCdqfH&index=3 vide√≥ alapj√°n
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -17,12 +17,12 @@ public class ListTest {
 		this.people.add("Andor");
 		this.people.add("Elza");
 		this.people.add("Vivien");
-		this.people.add("XavÈr");
+		this.people.add("Xav√©r");
 		this.people.add("Barbara");
 	}
 	@Test
 	public void testSize() {
-		assertEquals("MÈret EllenırzÈs", 5, this.people.size());
+		assertEquals("M√©ret Ellen√µrz√©s", 5, this.people.size());
 		}
 	@Test
 	public void testEmpty() {
@@ -31,7 +31,7 @@ public class ListTest {
 	@Test
 	public void testAdd() {
 		this.people.add("Vilma");
-		assertEquals("⁄j nÈv hozz·ad·s·nak ellenırzÈse",6,this.people.size());
+		assertEquals("√öj n√©v hozz√°ad√°s√°nak ellen√µrz√©se",6,this.people.size());
 	}
 	@Test
 	public void testremoveAll() {
