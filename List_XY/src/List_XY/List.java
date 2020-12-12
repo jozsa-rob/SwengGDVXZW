@@ -1,4 +1,4 @@
-package List_XY;
+package List_XY; // https://www.youtube.com/watch?v=TpvEqvSx4aI&list=PLyriihBWoulxmMv3x05WHs8R12WfCdqfH&index=3 videó alapján
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
